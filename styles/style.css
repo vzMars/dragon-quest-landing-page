@@ -3,6 +3,7 @@
   --darkText: #1f2937;
   --whiteTextBG: #f9faf8;
   --grayTextBG: #e5e7eb;
+  --grayBG: #787e88;
   --blueTextBG: #3882f6;
 }
 
@@ -30,19 +31,20 @@ a {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 15px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header {
+.header,
+.hero {
   background-color: var(--darkBG);
 }
 
 .logo {
   color: var(--whiteTextBG);
   font-size: 24px;
+  margin: 15px 0;
 }
 
 .nav-bar .links {
@@ -51,4 +53,37 @@ a {
   padding: 0;
   display: flex;
   gap: 15px;
+}
+
+.hero-content {
+  margin: 150px 0;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--whiteTextBG);
+}
+
+.hero-content p {
+  margin: 0;
+  font-size: 18px;
+  color: var(--grayTextBG);
+}
+
+.hero-btn {
+  color: var(--whiteTextBG);
+  background-color: var(--blueTextBG);
+  border: 1px solid var(--blueTextBG);
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 6px 30px;
+}
+
+.img-placeholder img {
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
 }
