@@ -36,7 +36,8 @@ a {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
   background-color: var(--darkBG);
 }
 
@@ -145,7 +146,7 @@ h3 {
 }
 
 .action .container {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .call-to-action {
@@ -171,4 +172,10 @@ p {
 
 .call-to-action .hero-btn {
   border: 2px solid var(--whiteTextBG);
+}
+
+.footer .container {
+  color: var(--whiteTextBG);
+  justify-content: center;
+  padding: 30px;
 }
