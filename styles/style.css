@@ -127,7 +127,7 @@ a {
 .quote .container {
   flex-direction: column;
   padding: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .quote .container p {
@@ -142,4 +142,33 @@ h3 {
   margin: 0;
   margin-right: 50px;
   align-self: flex-end;
+}
+
+.action .container {
+  margin-bottom: 100px;
+}
+
+.call-to-action {
+  width: 1000px;
+  padding: 50px;
+  background-color: var(--blueTextBG);
+  border: 5px solid var(--blueTextBG);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.left h4,
+p {
+  margin: 0;
+  color: var(--whiteTextBG);
+}
+
+.call-to-action .hero-btn {
+  border: 2px solid var(--whiteTextBG);
 }
