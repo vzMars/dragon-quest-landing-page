@@ -1,6 +1,5 @@
 :root {
   --darkBG: #1f2937;
-  --darkText: #1f2937;
   --whiteTextBG: #f9faf8;
   --grayTextBG: #e5e7eb;
   --grayBG: #787e88;
@@ -86,4 +85,35 @@ a {
   max-width: 500px;
   height: auto;
   object-fit: contain;
+}
+
+.random-info .container {
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--darkBG);
+}
+
+.img-flex {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  color: var(--darkBG);
+}
+
+.img-boxes {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img-box {
+  width: 150px;
+  height: 150px;
+  border: 5px solid var(--blueTextBG);
+  border-radius: 15px;
 }
