@@ -40,6 +40,10 @@ a {
   background-color: var(--darkBG);
 }
 
+.quote {
+  background-color: var(--grayTextBG);
+}
+
 .logo {
   color: var(--whiteTextBG);
   font-size: 24px;
@@ -89,12 +93,14 @@ a {
 
 .random-info .container {
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .container h2 {
   font-size: 36px;
   font-weight: 800;
   color: var(--darkBG);
+  margin-bottom: 50px;
 }
 
 .img-flex {
@@ -116,4 +122,24 @@ a {
   height: 150px;
   border: 5px solid var(--blueTextBG);
   border-radius: 15px;
+}
+
+.quote .container {
+  flex-direction: column;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.quote .container p {
+  color: var(--darkBG);
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  margin-right: 50px;
+  align-self: flex-end;
 }
