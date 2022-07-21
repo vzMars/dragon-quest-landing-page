@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --blue: #3087ce;
+  --white: #f9faf8;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+main {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+header img {
+  width: 70%;
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.hero {
+  padding: 1rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.img-placeholder img {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.games .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.img-box {
+  width: 25rem;
+  height: 25rem;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  border: 5px solid var(--blue);
+}
+
+.creators {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.action {
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.call-to-action {
+  padding: 1rem;
+  background-color: var(--blue);
+  border: 5px solid var(--blue);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.hero-btn {
+  color: var(--blue);
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.call-to-action .hero-btn {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 2px solid var(--white);
+  align-self: flex-end;
+}
+
+footer {
+  color: var(--white);
+  background-color: var(--blue);
+  text-align: center;
+  padding: 4rem 0;
+}
