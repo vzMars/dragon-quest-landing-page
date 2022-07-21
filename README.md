@@ -1,6 +1,6 @@
 # Dragon Quest Landing Page
 
-This website is a basic landing page made for the video game series Dragon Quest.
+This website is a basic landing page for the Dragon Quest video game series.
 
 **Link to project:** https://vzmars.github.io/dragon-quest-landing-page/
 
@@ -14,11 +14,11 @@ This website was created using only HTML and CSS. The layout of this site uses f
 
 ## Optimizations:
 
-I would love to go back and make the design of this landing page more complex and modern. I would also like to experiment more with other CSS features like CSS Grid to compare it with Flexbox. I would also like to add JavaScript and incorporate a hamburger style navigation to the mobile layout.
+I would love to go back and make the design of this landing page more complex and modern. I would also like to experiment with other CSS features like CSS Grid to compare it with Flexbox. I would also like to add JavaScript and incorporate hamburger-style navigation to the mobile layout.
 
 ## Lessons Learned:
 
-I learned how easy it is to design a website using mobile first since its usually a simple single column layout compared to the desktop layout which is more complex. I’m happy with how close I got the layout to the picture provided by The Odin Project, and I learned more about flexbox.
+I learned how easy it is to design a website using mobile-first since it's usually a simple single-column layout compared to the more complex desktop layout. I’m happy with how close I got the layout to the picture provided by The Odin Project, and I learned more about flexbox.
 
 ## More Projects:
 
