@@ -14,7 +14,7 @@ This website was created using only HTML and CSS. The layout of this site uses f
 
 ## Optimizations:
 
-I would love to go back and make the design of this landing page more complex and modern. I would also like to experiment more with other CSS features like CSS Grid to compare it with Flexbox.
+I would love to go back and make the design of this landing page more complex and modern. I would also like to experiment more with other CSS features like CSS Grid to compare it with Flexbox. I would also like add JavaScript and incorporate a hamburger style navigation to the mobile layout.
 
 ## Lessons Learned:
 
