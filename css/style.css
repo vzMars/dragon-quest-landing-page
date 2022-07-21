@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --blue: #3087ce;
-  --white: #f9faf8;
+  --darkblue: #003b6c;
+  --blue: #1193ff;
+  --lightblue: #7ac3ff;
+  --white: #e4f3ff;
 }
 
 html {
@@ -28,8 +30,9 @@ body {
 }
 
 main {
-  background-color: var(--blue);
+  background-color: var(--darkblue);
   color: var(--white);
+  padding: 2rem;
 }
 
 header {
@@ -38,7 +41,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  gap: 2rem;
+  gap: 2rem 0;
 }
 
 header img {
@@ -50,19 +53,21 @@ header img {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 a {
   text-decoration: none;
-  font-size: 1.8rem;
   font-weight: 700;
   color: var(--white);
 }
 
 .hero {
-  padding: 1rem;
   text-align: center;
+}
+
+.hero img {
+  padding-top: 2rem;
 }
 
 h1,
@@ -76,6 +81,13 @@ h2 {
   width: 100%;
 }
 
+.games {
+  background-color: var(--lightblue);
+  color: var(--darkblue);
+  padding: 2rem 0;
+  text-align: center;
+}
+
 .games .container {
   display: flex;
   flex-direction: column;
@@ -83,7 +95,6 @@ h2 {
   justify-content: center;
   text-align: center;
   gap: 2rem;
-  margin-top: 2rem;
 }
 
 .img-box {
@@ -96,23 +107,38 @@ h2 {
   height: 100%;
   object-fit: cover;
   border-radius: 1.5rem;
-  border: 5px solid var(--blue);
+  border: 1px solid var(--darkblue);
 }
 
 .creators {
-  background-color: var(--blue);
-  color: var(--white);
+  color: var(--darkblue);
   padding: 2rem;
-  margin-top: 2rem;
+}
+
+.creators .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.creators p {
+  margin: 0;
+}
+
+.creators p:last-child {
+  align-self: flex-end;
+  font-weight: 700;
 }
 
 .action {
-  margin: 2rem 0;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: var(--lightblue);
 }
 
 .call-to-action {
-  padding: 1rem;
+  padding: 2rem 1rem;
   background-color: var(--blue);
   border: 5px solid var(--blue);
   border-radius: 1rem;
@@ -122,11 +148,11 @@ h2 {
 }
 
 .hero-btn {
-  color: var(--blue);
-  background-color: var(--white);
-  border: 1px solid var(--white);
+  color: var(--white);
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
   border-radius: 5px;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   font-family: inherit;
   font-weight: 700;
 }
@@ -138,9 +164,84 @@ h2 {
   align-self: flex-end;
 }
 
-footer {
-  color: var(--white);
-  background-color: var(--blue);
-  text-align: center;
-  padding: 4rem 0;
+@media (min-width: 37.5em) {
+  body {
+    font-size: 2.5rem;
+  }
+
+  header img {
+    width: 40%;
+  }
+
+  main,
+  .action,
+  .creators .container,
+  .games .container {
+    padding: 4rem;
+  }
+
+  .games {
+    padding-top: 4rem;
+  }
+
+  .games .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  .img-box {
+    width: 30rem;
+    height: 30rem;
+  }
+}
+
+@media (min-width: 62.5em) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header img {
+    width: 8%;
+  }
+
+  .links {
+    gap: 4rem;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    text-align: initial;
+    gap: 4rem;
+  }
+
+  main,
+  .action,
+  .creators .container,
+  .games .container {
+    padding: 8rem 4rem;
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  header {
+    padding-bottom: 6rem;
+  }
+
+  .hero img {
+    padding-top: 0;
+  }
+
+  .img-box {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .creators .container {
+    padding: 8rem;
+  }
 }
